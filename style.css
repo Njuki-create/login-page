@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("././erik-mclean-ZRns2R5azu0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    margin: 0;
+    height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+}
+
+.Login-page {
+    text-align: center;
+    border-style: solid;
+    margin: 200px;
+}
+
+.login-message {
+    font-family: "roboto", "sans-serif";
+    font-size: 30px;
+}
+
+.message {
+    color: wheat;
+}
+
+.form {
+    box-sizing: border-box;
+}
+
+.form input {
+    text-align: center;
+    border-color: green;
+    padding: 10px;
+}
+
+.form button {
+    background-color: rgb(0, 200, 0);
+    border-radius: 20px;
+}
+
+#forgotpassword {
+    display: none;
+}
+
+#signup {
+    display: none;
+}
+
+.form-message-success {
+    color: var(--color-success);
+}
+
+.form-message-error {
+    color: var(--color-error);
+}

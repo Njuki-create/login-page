@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+
+    <!-- linking html file to index.js file -->
+    <script src="./main.js"></script>
+    <div class="Login-page">
+        <h1 class="login-message"><strong>Login</strong></h1>
+        <div class="form">
+
+            <!-- creating a sign in form -->
+            <form name="myForm" id="sign-in">
+                <input type="text" placeholder=" Username or email" required /></br>
+                </br>
+                <input type="password" placeholder="Password" required /></br>
+                </br>
+                <button class="sign-in-button" type="submit">SIGN IN</button></br>
+                </br>
+                <a href="#forgotpassword" onClick="myFunction()">Forgot your password?</a></br>
+                </br>
+            </form>
+
+            <!-- creating a forgot-password form -->
+            <form name="resetpassword" id="forgotpassword">
+                <input type="text" placeholder="Email" /></br>
+                </br>
+                <button type="submit">Send my Password</button>
+            </form>
+
+            <p class="message">Don't have an account? <a href="#" onclick="Createaccount()">SIGN UP</a></p>
+            </br>
+
+            <!-- creating a sign up form -->
+            <form id="signup">
+                <input type="text" placeholder="Create Username" /></br>
+                </br>
+                <input type="text" placeholder="Enter email" /></br>
+                </br>
+                <input type="password" placeholder="Enter password" /></br>
+                </br>
+                <input type="password" placeholder="Confirm password" /></br>
+                </br>
+                <button class="sign-up-button" value="Onclick">SIGN UP</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
